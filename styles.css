@@ -1,0 +1,27 @@
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 6vw;
+}
+
+.main-content {
+    min-height: 100vh;
+    /* background-color: darkgreen; */
+    display:flex;
+    align-items: center;
+}
+
+.main {
+    padding-left: 20px;
+    padding-right: 20px;
+}
