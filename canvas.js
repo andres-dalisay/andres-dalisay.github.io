@@ -11,7 +11,7 @@ var ctx = canvas.getContext('2d');
   
 let isPainting = false;
 let lineWidth = 1;
-let tailLength = 1000;
+let tailLength = 250;
 
 let startX;
 let startY;

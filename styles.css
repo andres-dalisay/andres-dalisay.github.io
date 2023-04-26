@@ -32,6 +32,10 @@ canvas {
     z-index: 9999;
 }
 
+.name-header:hover {
+    cursor: default;
+}
+
 .drawing-canvas, .name-header {
     position: absolute;
 }
@@ -39,4 +43,29 @@ canvas {
 .main {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.head-link {
+    text-decoration: none;
+    transition: font-weight 0.5s;
+}
+
+.head-link:link {
+    color: white;
+}
+
+.head-link:visited {
+    color: white;
+}
+
+.head-link:hover {
+    text-shadow:
+    0px 0px 0 #ffffff,
+    0px 0px 0 #ffffff,
+    0px 0px 0 #ffffff,
+    0px 0px 0 #ffffff;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
